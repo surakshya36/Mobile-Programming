@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Entry Form"
+        android:textSize="35sp"
+        android:layout_margin="15sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Name"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:id="@+id/name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Age"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:id="@+id/age"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Department"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:id="@+id/dep"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Salary"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:id="@+id/sal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:layout_margin="15sp"
+        android:layout_gravity="center"
+        android:id="@+id/sub"/>
+
+
+</LinearLayout>
