@@ -6,5 +6,6 @@
     <item
         android:title="Area of Triangle"
         android:id="@+id/area"/>
-
 </menu>
+
+

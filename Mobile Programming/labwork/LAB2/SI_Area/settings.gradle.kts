@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SI_Area"
+rootProject.name = "Si_Area"
 include(":app")
- 

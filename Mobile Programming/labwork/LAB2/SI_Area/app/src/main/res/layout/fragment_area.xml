@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area of Triangle Calculator"
+        android:textSize="29sp"
+        android:textAlignment="center"
+        android:layout_margin="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the length of base"
+        android:layout_margin="15sp"
+        android:textSize="20sp"
+        android:id="@+id/base"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the length of height"
+        android:layout_margin="15sp"
+        android:textSize="20sp"
+        android:id="@+id/height"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="18sp"
+        android:layout_margin="15sp"
+        android:layout_gravity="center"
+        android:id="@+id/calc1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area: "
+        android:layout_margin="15sp"
+        android:textSize="24sp"
+        android:id="@+id/area"/>
+</LinearLayout>

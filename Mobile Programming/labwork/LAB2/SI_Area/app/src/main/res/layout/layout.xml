@@ -4,5 +4,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Interest and Area of Triangle"
+        android:layout_margin="15sp"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frag"
+       />
 
 </LinearLayout>
