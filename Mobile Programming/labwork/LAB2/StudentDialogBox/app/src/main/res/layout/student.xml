@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student's Name "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Roll No: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/roll" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter marks in DS: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/ds" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter marks in MP: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/mp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter marks in AJ: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/aj" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter marks in AE: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/ae" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter marks in NP: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/np" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_margin="15sp"
+        android:id="@+id/save"
+        android:layout_gravity="center"/>
+</LinearLayout>

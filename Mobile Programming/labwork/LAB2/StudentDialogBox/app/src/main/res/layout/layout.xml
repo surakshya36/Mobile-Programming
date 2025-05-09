@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Dialog Box"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_margin="15sp"
+        android:id="@+id/btn"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/r_name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roll No: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/r_roll" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks in DS: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/r_ds" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks in MP: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/r_mp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks in AJ: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/r_aj" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks in AE: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/r_ae" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks in NP: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/r_np" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/result" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade: "
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:id="@+id/grade" />
+</LinearLayout>

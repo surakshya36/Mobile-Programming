@@ -1,0 +1,11 @@
+1. Place the students folder inside the htdocs of  your xampp folder.
+2. Turn on the Xampp.
+3. Open phpMyAdmin and create a database name: studentdb
+4. Then create a table students with id(PK), name, roll.
+5. And in some java files like update.java, change the ip address in the url, 
+	for example: http://192.168.0.101/students/fetch.php, yesma vako ip address mero laptop ko ho. change the ip address as per your pc/laptop.
+P.S. Yesto url praye java files ma xa. So, ramrari herera change garnu hola.
+							
+
+			DHANYABAD!!! ANI KEHI ISSUE AAYO VANE PLEASE DON'T CONTACT ME😊😊!!!
+									YOURS TRUELY😌😌
