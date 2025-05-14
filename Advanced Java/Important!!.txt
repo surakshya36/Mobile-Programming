@@ -1,0 +1,1 @@
+Paste the Lab 4 folder in your Xampp\tomcat\webapps\ and turn the tomcat on
